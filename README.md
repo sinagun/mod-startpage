@@ -96,11 +96,11 @@ Self-explanatory:
 </p>
 
 <p align="center">
-  <img src="/.github/preview6.gif">
+  <img src="/.github/preview6.png">
 </p>
 
 <p align="center">
-  <img src="/.github/preview7.gif">
+  <img src="/.github/preview7.png">
 </p>
 
 ---
