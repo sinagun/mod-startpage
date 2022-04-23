@@ -95,6 +95,14 @@ Self-explanatory:
   <img src="/.github/preview5.gif">
 </p>
 
+<p align="center">
+  <img src="/.github/preview6.gif">
+</p>
+
+<p align="center">
+  <img src="/.github/preview7.gif">
+</p>
+
 ---
 
 <p align="center">
