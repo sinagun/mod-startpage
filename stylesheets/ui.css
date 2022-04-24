@@ -35,7 +35,7 @@
  * */
 body > *:not(#background) {
 
-  color: var(--text-colour);
+  color: rgb(237 255 0)
 
 }
 
@@ -52,7 +52,7 @@ body > *:not(#background) {
 
   /* Styling */
   background: var(--background-colour);
-  box-shadow: 0 0 1rem var(--light-input);
+  box-shadow: inset 8px 11px 7rem 11px rgb(0 39 255 / 11%);
   backdrop-filter: blur(4px);
 
 }
