@@ -7,6 +7,7 @@
     ["The IGN", "https://www.ign.com"],
     ["Insider", "https://www.insider.com"],
     ["Engadget", "https://www.engadget.com"],
+    ["دلار امروز", "https://www.tgju.org"],
     ["The Verge", "https://www.theverge.com"],
     ["bloomberg", "https://www.bloomberg.com"],
     ["Techcrunch", "https://techcrunch.com"],
@@ -26,10 +27,13 @@
     ["github", "https://github.com", "github"],
     ["translet", "https://www.google.com/search?q=translet"],
     ["sololearn", "https://www.sololearn.com/profile/25104531", "profile"],
+    ["duolingo", "https://www.duolingo.com"],
     ["inbox-gmail", "https://inbox.google.com", "gmail"],
     ["inbox-yahoo", "https://mail.yahoo.com", "yahoo"],
     ["inbox-outlook", "https://outlook.live.com/mail/0/", "outlook"],
     ["inbox-protonmail", "https://mail.protonmail.com/u/0/inbox", "protonmail"]
+    
+    
     
 
   ],
@@ -47,7 +51,7 @@
 
   "social": [
 
-    ["Github","https://github.com"],
+
     ["Twitter", "https://twitter.com/"],
     ["Linkedin", "https://linkedin.com/"],
     ["pinterest","https://www.pinterest.com"],
@@ -92,10 +96,13 @@
     ["Unsplash", "https://unsplash.com/", "Photographies from the World."],
     ["diagrams", "https://app.diagrams.net"],
     ["logomakr", "https://logomakr.com/app/", "Free logo maker"],
+    ["speed test", "https://www.speedtest.net"],
     ["wordcounter", "https://wordcounter.net", "Free images from the web."],
-    ["worldvectorlogo", "https://worldvectorlogo.com", "Free icons from the web."],
+    ["worldvectorlogo", "https://worldvectorlogo.com", "Free icons from the web."], 
     ["online file convert", "https://onlineconvertfree.com"], 
     ["ip/subnet calculator ", "https://www.subnet-calculator.com"],
+    ["youtube downloader", "https://youtube4kdownloader.com"],
+    ["downloadtimecalculator", "https://downloadtimecalculator.com"],
     ["calculators and converters", "https://toolstud.io"],
     ["money and investment-EN", "https://www.calculator.net"],
     ["money and investment-IR", "https://kitset.ir"]
