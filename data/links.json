@@ -11,18 +11,18 @@
     ["The Verge", "https://www.theverge.com"],
     ["bloomberg", "https://www.bloomberg.com"],
     ["Techcrunch", "https://techcrunch.com"],
-    ["Google News", "https://news.google.com/topstories", "https://news.google.com/news/rss/headlines/section/topic/WORLD?ned=us&hl=en"],
-    ["The Guardian", "https://www.theguardian.com/world/rss", "https://www.theguardian.com/world/rss"],
+    ["Google News", "https://news.google.com/topstories"],
+    ["The Guardian", "https://www.theguardian.com/world/rss"],
     ["CoinMarketCap", "https://coinmarketcap.com"],
-    ["The New York Times", "https://rss.nytimes.com/services/xml/rss/nyt/HomePage.xml", "https://rss.nytimes.com/services/xml/rss/nyt/HomePage.xml"],
-    ["The Washington Post", "https://www.washingtonpost.com/rss/homepage_two.xml", "https://www.washingtonpost.com/rss/homepage_two.xml"],
+    ["The New York Times", "https://rss.nytimes.com/services/xml/rss/nyt/HomePage.xml"],
+    ["The Washington Post", "https://www.washingtonpost.com/rss/homepage_two.xml"],
     ["The Washington Times", "https://www.washingtontimes.com"],
     ["The Wall Street Journal", "https://www.wsj.com"]
 
   ],
 
   "Daily": [
-    
+
     ["porn", "https://www.xvideos.com","xvideos"],
     ["keep", "https://keep.google.com/#home"],
     ["github", "https://github.com", "github"],
