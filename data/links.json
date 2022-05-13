@@ -1,8 +1,8 @@
 {
   "News": [
     
-    ["CNN", "https://rss.cnn.com/rss/cnn_topstories.rss", "https://rss.cnn.com/rss/cnn_topstories.rss"],
-    ["BBC", "https://feeds.bbci.co.uk/news/rss.xml", "https://feeds.bbci.co.uk/news/rss.xml"],
+    ["CNN", "https://rss.cnn.com/rss/cnn_topstories.rss"],
+    ["BBC", "https://feeds.bbci.co.uk/news/rss.xml"],
     ["wired", "https://www.wired.com"],
     ["The IGN", "https://www.ign.com"],
     ["Insider", "https://www.insider.com"],
