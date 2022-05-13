@@ -22,6 +22,7 @@
   ],
 
   "Daily": [
+    
     ["porn", "https://www.xvideos.com","xvideos"],
     ["keep", "https://keep.google.com/#home"],
     ["github", "https://github.com", "github"],
@@ -31,10 +32,7 @@
     ["inbox-gmail", "https://inbox.google.com", "gmail"],
     ["inbox-yahoo", "https://mail.yahoo.com", "yahoo"],
     ["inbox-outlook", "https://outlook.live.com/mail/0/", "outlook"],
-    ["inbox-protonmail", "https://mail.protonmail.com/u/0/inbox", "protonmail"]
-    
-    
-    
+    ["inbox-protonmail", "https://mail.protonmail.com/u/0/inbox", "protonmail"]  
 
   ],
 
@@ -50,7 +48,6 @@
   ],
 
   "social": [
-
 
     ["Twitter", "https://twitter.com/"],
     ["Linkedin", "https://linkedin.com/"],
@@ -69,9 +66,7 @@
     ["w3schools", "https://www.w3schools.com"],
     ["stackoverflow", "https://stackoverflow.com"],
     ["Code, Compile & Run", "https://www.codechef.com/ide","codechef"]
-    
-    
-    
+   
   ],
 
   "Reddit": [
@@ -86,19 +81,9 @@
 
   ],
 
-  "Tools": [
-    
-    ["vecta", "https://vecta.io", "Free icons from the web."],
-    ["pexels", "https://www.pexels.com", "Free images from the web."],
-    ["icons8", "https://icons8.com", "Free icons from the web."],
-    ["flaticon", "https://www.flaticon.com", "Free icons from the web."],
-    ["Pixabay", "https://pixabay.com/", "Free images from the web."],
-    ["Unsplash", "https://unsplash.com/", "Photographies from the World."],
-    ["diagrams", "https://app.diagrams.net"],
-    ["logomakr", "https://logomakr.com/app/", "Free logo maker"],
+  "Tools-testing-box": [
+
     ["speed test", "https://www.speedtest.net"],
-    ["wordcounter", "https://wordcounter.net", "Free images from the web."],
-    ["worldvectorlogo", "https://worldvectorlogo.com", "Free icons from the web."], 
     ["online file convert", "https://onlineconvertfree.com"], 
     ["ip/subnet calculator ", "https://www.subnet-calculator.com"],
     ["youtube downloader", "https://youtube4kdownloader.com"],
@@ -107,7 +92,21 @@
     ["money and investment-EN", "https://www.calculator.net"],
     ["money and investment-IR", "https://kitset.ir"]
     
-    
+  ],
+
+  "Tools-design-box": [
+
+    ["vecta", "https://vecta.io", "Free icons from the web."],
+    ["pexels", "https://www.pexels.com", "Free images from the web."],
+    ["icons8", "https://icons8.com", "Free icons from the web."],
+    ["pngegg", "https://www.pngegg.com"],
+    ["flaticon", "https://www.flaticon.com", "Free icons from the web."],
+    ["Pixabay", "https://pixabay.com/", "Free images from the web."],
+    ["Unsplash", "https://unsplash.com/", "Photographies from the World."],
+    ["logomakr", "https://logomakr.com/app/", "Free logo maker"],
+    ["diagrams", "https://app.diagrams.net"],
+    ["wordcounter", "https://wordcounter.net", "Free images from the web."],
+    ["worldvectorlogo", "https://worldvectorlogo.com", "Free icons from the web."]
 
   ],
 
@@ -121,9 +120,11 @@
   ],
   
   "linux": [
+
     ["archlinux-wiki", "https://wiki.archlinux.org"],
     ["debianlinux-wiki", "https://wiki.debian.org"],
     ["command-not-found", "https://command-not-found.com"]
+
   ],
 
   "Local Hosts / Local ports": [
@@ -137,8 +138,6 @@
     ["SSH Server", "#"],
     ["Web Server", "#"],
     ["Security Cameras", "#"]
-    
-  
     
   ]
 }
