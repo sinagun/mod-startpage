@@ -3,56 +3,38 @@
 
 <!-- Head Page -->
 <head>
-  <link rel="icon"type="image/png"href="img/icon.png"/>
-  <!-- Basics -->
+  <link rel="icon" type="image/png" href="img/icon.png" />
   <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Home For Sina</title>
+  <meta name="description" content="A homepage.">
 
-  <!-- Parameters -->
-  <title>Home For sina</title>
-  <meta name="description" content="A simple, but yet, powerful homepage.">
- 
-  
-  <!---- Styles ---->
-  <!-- Colours for the UI -->
+  <!-- Stylesheets -->
   <link rel="stylesheet" href="./stylesheets/colours.css">
-  <!-- Home -->
   <link rel="stylesheet" href="./stylesheets/background.css">
-  <!-- Fonts -->
   <link rel="stylesheet" href="./stylesheets/fonts.css">
-  <!-- Grid/Flex parts of the UI -->
   <link rel="stylesheet" href="./stylesheets/gridflex.css">
-  <!-- UI itself -->
   <link rel="stylesheet" href="./stylesheets/ui.css">
 
-  <!---- Scripts ---->
-  <!-- Tools to minimaze code -->
+  <!-- Scripts -->
+  <script defer src="./javascript/date.js"></script>
   <script defer src="./javascript/util.js"></script>
-  
-  <!-- Everything --->
   <script defer src="./javascript/main.js"></script>
-   
 </head>
 
 <!-- Body Page -->
 <body>
 
-
-
-  
-  
-
-
-
-
-
-
-
-
-  <!--- Background Dummie -->
+  <!-- Background Dummy -->
   <section id="background" style="background-image: url('./data/background');"></section>
-  
+
   <!-- Time Block -->
-  <section id="time-container"><div id="time"></div></section>
+  <section id="time-container">
+    <div id="time">
+      <div class="time-text" id="current-time"></div>
+      <div class="date-text" id="current-date"></div>
+    </div>    
+  </section>
 
   <!-- Quote Block -->
   <section id="quote-container"><div id="quote" class="dark"></div></section>
@@ -64,7 +46,6 @@
 
   <!-- Search Block -->
   <section id="search-container">
-    <!-- Button to select different Search engine --->
     <form id="form" class="dark" action="link" method="get" target="_self" autocomplete="off"> 
   		<input id="input" type="text" placeholder="">
       <div id="input-border"></div>
@@ -72,9 +53,8 @@
   	</form>
   </section>
 
-  <!--- Location Block (empty if there isn't any on config.json) -->
+  <!-- Location Block (empty if there isn't any on config.json) -->
   <section id="nothing-container"><div></div></section>  
-  
-</body>
 
+</body>
 </html>

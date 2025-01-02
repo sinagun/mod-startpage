@@ -1,26 +1,34 @@
 /*
  * Time container
  * */
-#time {
-  
-  /* Select strong font for the text */
+ #time {
   font-family: gmsj;
   font-size: 2.5rem;
-
-  /* Text shadow */
   text-shadow: 0 0 8px var(--sub-colour);
-
-  /* Make it non-selectable */
   user-select: none;
-  
-} #time > .dots {
+  text-align: center;
+}
+#current-time {
+  font-size: 3rem;
+  color: #fff;
+}
 
-  /* Opaque and smaller compared to the other letters */
-  font-size: 2.25rem;
-  opacity: 0.55;
-  
-  /* Vertical center between letters */
-  position: relative;
-  top: -0.2rem;
+#current-date {
+  font-size: 1.5rem;
+  color: #bbb;
+  margin-top: 5px;
+}
 
+/* Style for the time text */
+#time > .time-text {
+  font-size: 2.5rem;
+}
+
+/* Style for the date text */
+#time > .date-text {
+  font-size: 1.25rem; /* Smaller size for the date */
+  color: var(--primary-colour); /* Adjust color */
+  margin-top: 0.5rem; /* Space between time and date */
+  opacity: 0.75; /* Slight transparency */
+  text-transform: capitalize;
 }

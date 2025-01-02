@@ -232,33 +232,51 @@ window.addEventListener('DOMContentLoaded', async () => {
     class Time {
 
       constructor () {
-
-        this._separator = '<span class="dots">:</span>'
-        this._container = document.getElementById('time')
-
+        this._separator = '<span class="dots">:</span>';
+        this._container = document.getElementById('current-time');
+        this._dateContainer = document.getElementById('current-date');
       }
-
-      format (i) {
-
+    
+      format(i) {
         if (i < 10) i = '0' + i;
         return i;
-
       }
-
-      async update (date = new Date()) {
-
-        const [hour, minute, second] = [date.getHours(), date.getMinutes(), date.getSeconds()].map(e => this.format(e)); 
-
-        this._container.innerHTML = ''
-        this._container.insertAdjacentHTML( 'beforeend', `${hour}${this._separator}${minute}${this._separator}${second}` );
-
-        await delay(500)
-
-        this.update()
-
+    
+      async update(date = new Date()) {
+        // Check if the elements exist
+        if (!this._container || !this._dateContainer) {
+          console.error('Time or Date container not found.');
+          return;
+        }
+    
+        // Format time
+        const [hour, minute, second] = [date.getHours(), date.getMinutes(), date.getSeconds()].map(e => this.format(e));
+    
+        // Set the time
+        this._container.innerHTML = `${hour}${this._separator}${minute}${this._separator}${second}`;
+    
+        // Format and set the date
+        const dateString = date.toLocaleDateString('en-GB', {
+          weekday: 'long', 
+          year: 'numeric', 
+          month: 'long', 
+          day: 'numeric'
+        });
+        
+        this._dateContainer.textContent = dateString;
+    
+        // Update every second
+        await delay(1000); // Use a 1-second delay for accurate time updating
+        this.update();
       }
-
     }
+    
+    // Delay function to wait before updating
+    function delay(ms) {
+      return new Promise(resolve => setTimeout(resolve, ms));
+    }
+    
+    
 
     class Quotes {
 

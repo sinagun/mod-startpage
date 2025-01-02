@@ -5,7 +5,7 @@
   "blur_background": "11",
   "blur_time": "125ms",
   "blur_effect": "ease-in-out",
-  "accent": "rgb(255, 166, 161)",
+  "accent": "rgb(2, 166, `200`)",
   "automatic_accent": true,
   "searches": [
     [ "google", "https://www.google.com/search", "q" ],
